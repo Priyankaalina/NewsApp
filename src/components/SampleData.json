@@ -1,71 +1,266 @@
 {
     "status": "ok",
-    "totalResults": 5,
+    "totalResults": 31,
     "articles": [
+        {
+            "source": {
+                "id": "bild",
+                "name": "Bild"
+            },
+            "author": "Andreas Zschorsch",
+            "title": "FC St. Pauli: Einen stoppten die Zähne – So steht's um die Verletzten | Sport",
+            "description": "Neues aus dem Pauli-Lazarett. Bei einem Profi versauten die Zähne die Länderspiel-Reise...",
+            "url": "https://www.bild.de/sport/fussball/st-pauli/fc-st-pauli-einen-stoppten-die-zaehne-so-stehts-um-die-verletzten-87574992.bild.html",
+            "urlToImage": "https://images.bild.de/65f9987d039d7d156f0abe4f/5e6e7771edb444ccba871f6514c2f9c3,eebc0234?w=1280",
+            "publishedAt": "2024-03-19T16:05:02Z",
+            "content": "Lange Zeit blieb der FC St. Pauli von an einer Anhäufung von Verletzungen verschont. Doch im Saison-Endspurt in Richtung Bundesliga-Aufstieg hat es doch den einen oder anderen erwischt. In der Länder… [+1767 chars]"
+        },
+        {
+            "source": {
+                "id": "techradar",
+                "name": "TechRadar"
+            },
+            "author": "Rob Dunne",
+            "title": "Amazon Spring Sale phone deals have arrived early! Here are our top picks available right now",
+            "description": "The Amazon Spring Sale is looking like the perfect time to give your cell phone a spruce up",
+            "url": "https://www.techradar.com/phones/amazon-spring-sale-cell-phone-deals",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/BtgyZqfYPsTQKsMxMjNZug-1200-80.jpg",
+            "publishedAt": "2024-03-19T15:23:31Z",
+            "content": "Google Pixel 7a: &lt;a href=\"https://target.georiot.com/Proxy.ashx?tsid=8428&amp;GR_URL=https%3A%2F%2Famazon.com%2Fdp%2FB0BZ9XNBRB%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0BZ9XNBRB%26pd_rd_w%… [+1133 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news-in",
+                "name": "Google News (India)"
+            },
+            "author": "NDTV",
+            "title": "Election Body Removes West Bengal Top Cop A Day After Appointment - NDTV",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMicGh0dHBzOi8vd3d3Lm5kdHYuY29tL2luZGlhLW5ld3MvZWxlY3Rpb24tYm9keS1yZW1vdmVzLWJlbmdhbC10b3AtY29wLXZpdmVrLXNhaGF5LWEtZGF5LWFmdGVyLWFwcG9pbnRtZW50LTUyNzA1NDPSAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-03-19T15:22:34+00:00",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "el-mundo",
+                "name": "El Mundo"
+            },
+            "author": null,
+            "title": "De Topuria a Ibai, el deporte violento resucita: \"Antes era un anacronismo y ahora es 'cool'\"",
+            "description": "Un luchador, Ilia Topuria, hace que decenas de miles de aficionados paguen por verle competir en Estados Unidos de madrugada, aparece en la portada de la mayorÃ­a de periÃ³dicos...",
+            "url": "https://www.elmundo.es/deportes/mas-deporte/2024/03/18/65ea2bf9fc6c8348648b45bb.html",
+            "urlToImage": "https://phantom-elmundo.unidadeditorial.es/602989d6408e7f60edf67c2f5c5bb5b5/resize/1200/f/webp/assets/multimedia/imagenes/2024/03/19/17108557784447.jpg",
+            "publishedAt": "2024-03-19T13:44:26Z",
+            "content": "Un luchador, Ilia Topuria, hace que decenas de miles de aficionados paguen por verle competir en Estados Unidos de madrugada, aparece en la portada de la mayorÃ­a de periÃ³dicos -incluido EL MUNDO-, … [+179 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Sam Rutherford",
+            "title": "ASUS Zenbook Duo review: The first dual-screen laptop worth buying",
+            "description": "Starting at $1,500 and with dimensions that aren’t much bigger than a traditional clamshell, ASUS’ Zenbook Duo is the first dual-screen laptop you’d actually...",
+            "url": "https://www.engadget.com/asus-zenbook-duo-review-specs-price-the-first-dual-screen-laptop-worth-buying-130016756.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/QeBrKhawUlQrmzF_z3mBHg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03MjA-/https://s.yimg.com/os/creatr-uploaded-images/2024-03/e4248d20-e5eb-11ee-beef-9ba9fd2bbcec",
+            "publishedAt": "2024-03-19T13:00:16Z",
+            "content": "Almost every major PC maker has dabbled with the idea of a dual-screen laptop at some point. Way back in 2011, Acer released the Iconia 6120\r\n sporting not one but two 14-inch displays. Then at CES 2… [+8292 chars]"
+        },
         {
             "source": {
                 "id": "reuters",
                 "name": "Reuters"
             },
             "author": null,
-            "title": "Podcasts | Your world in 10 minutes | Reuters",
-            "description": "Go straight to the source with a daily ten-minute news briefing by frontline journalists. Join host Kim Vinnell as she takes you around the world every weekday.",
-            "url": "https://www.reuters.com/podcasts/",
+            "title": "Lifestyle News | Today's Top Lifestyle Stories | Reuters",
+            "description": "Find latest lifestyle news from every corner of the globe at Reuters.com, your online source for breaking international news coverage.",
+            "url": "https://www.reuters.com/lifestyle/",
             "urlToImage": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.webp?d=182",
-            "publishedAt": "2024-03-19T11:52:26.3241325Z",
+            "publishedAt": "2024-03-19T12:07:21.0805071Z",
             "content": null
         },
         {
             "source": {
-                "id": "bloomberg",
-                "name": "Bloomberg"
+                "id": "fox-news",
+                "name": "Fox News"
             },
-            "author": "Bloomberg",
-            "title": "Bitcoin Retreats as Grayscale ETF Posts Biggest Daily Outflow",
-            "description": null,
-            "url": "https://news.google.com/rss/articles/CBMic2h0dHBzOi8vd3d3LmJsb29tYmVyZy5jb20vbmV3cy9hcnRpY2xlcy8yMDI0LTAzLTE5L2JpdGNvaW4tYnRjLXJldHJlYXRzLWFzLWdyYXlzY2FsZS1ldGYtZ2J0Yy1wb3N0cy1iaWdnZXN0LW91dGZsb3fSAQA?oc=5",
-            "urlToImage": null,
-            "publishedAt": "2024-03-19T05:30:36+00:00",
-            "content": null
+            "author": "Danielle Wallace",
+            "title": "Sullivan rips reporter's question on Biden swearing as asking 'when did you stop beating your spouse?'",
+            "description": "National Security Adviser Jake Sullivan took issue with the premise of a question about President Biden from Fox News correspondent Peter Doocy.",
+            "url": "https://www.foxnews.com/politics/sullivan-rips-reporters-question-biden-swearing-asking-when-did-stop-beating-spouse",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/03/AP24078690878098.jpg",
+            "publishedAt": "2024-03-19T11:11:26Z",
+            "content": "Join Fox News for access to this content\r\nPlus special access to select articles and other premium content with your account - free of charge.\r\nPlease enter a valid email address.\r\nBy entering your e… [+3107 chars]"
         },
         {
             "source": {
-                "id": "google-news-au",
-                "name": "Google News (Australia)"
+                "id": "google-news-uk",
+                "name": "Google News (UK)"
             },
             "author": "Daily Mail",
-            "title": "Tropical Cyclone Megan strikes Australia causing a mega rain bomb: What you need to know - Daily Mail",
+            "title": "Man charged with murder after grandfather, 57, was 'knocked down and killed trying to stop suspected car thief - Daily Mail",
             "description": null,
-            "url": "https://news.google.com/rss/articles/CBMicWh0dHBzOi8vd3d3LmRhaWx5bWFpbC5jby51ay9uZXdzL2FydGljbGUtMTMyMTE3ODkvQ3ljbG9uZS1zdHJpa2VzLUF1c3RyYWxpYS1jYXVzaW5nLW1lZ2EtcmFpbi1ib21iLW5lZWQta25vdy5odG1s0gF1aHR0cHM6Ly93d3cuZGFpbHltYWlsLmNvLnVrL25ld3MvYXJ0aWNsZS0xMzIxMTc4OS9hbXAvQ3ljbG9uZS1zdHJpa2VzLUF1c3RyYWxpYS1jYXVzaW5nLW1lZ2EtcmFpbi1ib21iLW5lZWQta25vdy5odG1s?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMimwFodHRwczovL3d3dy5kYWlseW1haWwuY28udWsvbmV3cy9hcnRpY2xlLTEzMjEzODQxL01hbi1jaGFyZ2VkLW11cmRlci1ncmFuZGZhdGhlci01Ny1rbm9ja2VkLWtpbGxlZC10cnlpbmctc3RvcC1zdXNwZWN0ZWQtY2FyLXRoaWVmLXN0ZWFsaW5nLUxhbmQtUm92ZXIuaHRtbNIBnwFodHRwczovL3d3dy5kYWlseW1haWwuY28udWsvbmV3cy9hcnRpY2xlLTEzMjEzODQxL2FtcC9NYW4tY2hhcmdlZC1tdXJkZXItZ3JhbmRmYXRoZXItNTcta25vY2tlZC1raWxsZWQtdHJ5aW5nLXN0b3Atc3VzcGVjdGVkLWNhci10aGllZi1zdGVhbGluZy1MYW5kLVJvdmVyLmh0bWw?oc=5",
             "urlToImage": null,
-            "publishedAt": "2024-03-18T21:02:55+00:00",
+            "publishedAt": "2024-03-19T10:39:21+00:00",
             "content": null
         },
         {
             "source": {
-                "id": "lequipe",
-                "name": "L'equipe"
+                "id": "usa-today",
+                "name": "USA Today"
             },
-            "author": "L'EQUIPE",
-            "title": "L'UEFA a donné des consignes de sécurité aux supporters de Manchester City avant la finale de la Ligue des ...",
-            "description": "Selon le « Daily Mail », l'UEFA a envoyé ses consignes de sécurité aux supporters de Manchester City avant la finale de Ligue des champions qui opposera les Citizens à l'Inter, samedi, à Istanbul (21 heures). Un an après les incidents du Stade de France, l'in…",
-            "url": "https://www.lequipe.fr/Football/Actualites/L-uefa-a-donne-des-consignes-de-securite-aux-supporters-de-manchester-city-avant-la-finale-de-la-ligue-des-champions/1401508",
-            "urlToImage": "https://medias.lequipe.fr/img-photo-jpg/les-supporters-de-manchester-city-devront-arriver-au-stade-avec-neuf-heures-d-avance-selon-le-daily-/1500000001795954/0:0,1997:1332-640-427-75/21760.jpg",
-            "publishedAt": "2023-06-08T14:11:05+00:00",
-            "content": "Un an après les incidents au Stade de France et le traumatisme de milliers de supporters anglais, l'UEFA voudrait s'assurer que de tels dysfonctionnements ne se reproduisent plus. Le 28 mai 2022, l'a… [+485 chars]"
+            "author": "Nate Davis",
+            "title": "NFL mock draft: New landing spots for Drake Maye, J.J. McCarthy as Vikings trade to No. 3",
+            "description": "The demand for top QBs continues to rise in our latest 2024 NFL mock draft, with the Vikings trading up to secure an elite passer.",
+            "url": "https://www.usatoday.com/story/sports/nfl/draft/2024/03/19/nfl-mock-draft-2024-vikings-drake-maye-jj-mccarthy/73025128007/",
+            "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/03/19/USAT/73025165007-usatsi-21706991.jpg?crop=3067,1725,x558,y148&width=3067&height=1725&format=pjpg&auto=webp",
+            "publishedAt": "2024-03-19T10:37:24+00:00",
+            "content": "It's been a week since the NFL free agent market unofficially opened, and it didnt take long for most of the prominent players on expiring contracts to signal where theyd be playing in 2024 (and, lik… [+20068 chars]"
         },
         {
             "source": {
-                "id": "ign",
-                "name": "IGN"
+                "id": "gruenderszene",
+                "name": "Gruenderszene"
             },
-            "author": "Eric Song",
-            "title": "Daily Deals: Save $50 Off the Microsoft Xbox Series X Gaming Console + Elite Series 2 Wireless Controller Bundle - IGN",
-            "description": null,
-            "url": "https://www.ign.com/articles/daily-deals-microsoft-xbox-series-x-gaming-console-elite-series-2-controller",
-            "urlToImage": "https://assets-prd.ignimgs.com/2022/09/01/090122-1662050863587.jpg?width=1280",
-            "publishedAt": "2022-09-01T17:05:23Z",
-            "content": "Check out the new hot daily deals for today, including a rare discount on an Xbox Series X gaming console bundle, $170 off the Apple AirPods Max headphones, $50 off the Bose SoundLik II portable Blue… [+12798 chars]"
+            "author": null,
+            "title": "10 Millionen Euro für Job-Plattform Instaffo: Dieses Pitchdeck hat den Private Equity-Investor überzeugt",
+            "description": "Gründer Christoph Zöller erzählt, wie die aktuelle Finanzierungsrunde zustande kam - und zeigt euch sein Pitchdeck.",
+            "url": "https://www.businessinsider.de/gruenderszene/special/erfolgreiche-pitchdeck-beispiele-millionenfinanzierungen/10-mio-euro-fuer-job-plattform-instaffo-dieses-pitchdeck-hat-den-private-equity-investor-ueberzeugt/",
+            "urlToImage": "https://cdn.businessinsider.de/wp-content/uploads/2024/03/20240229-Christoph-Nikolai_Instaffo-PM_TimoDehnProductions_TDP01812-scaled.jpg?ver=1710777633",
+            "publishedAt": "2024-03-19T07:00:00+00:00",
+            "content": "An einem Taxistand hat sich die zehn Millionen Euro Finanzierungsrunde angebahnt, erzählt Instaffo-Gründer Christoph Zöller im Gespräch mit Gründerszene. Mehr oder weniger zufällig kommt er da mit ei… [+2778 chars]"
+        },
+        {
+            "source": {
+                "id": "focus",
+                "name": "Focus"
+            },
+            "author": "Göran Schattauer",
+            "title": "Verteidigungsminister Boris Pistorius: Kann dieser Mann uns vor Putin schützen?",
+            "description": "Als Verteidigungsminister will Boris Pistorius Deutschland „kriegstüchtig“ machen und die Bundeswehr zu einer Top-Truppe formen. Aber was hat der populäre SPD-Politiker bisher tatsächlich erreicht? Wie krisenfest ist er? Und wie tickt der 64-Jährige privat?",
+            "url": "https://www.focus.de/politik/deutschland/verteidigungsminister-pistorius-neue-haerte-oder-nur-heisse-luft-kann-dieser-mann-uns-vor-putin-schuetzen_id_259763896.html",
+            "urlToImage": "https://p6.focus.de/img/fotos/id_259763881/05-optik-putin-pistorius.jpg?im=Crop%3D%280%2C25%2C1400%2C700%29%3BResize%3D%281200%2C627%29&impolicy=perceptual&quality=mediumHigh&hash=3a153e500484098ab24b5a844f94383d84a68dc1a347f1fbf650a7ac099d2054",
+            "publishedAt": "2024-03-19T05:19:09Z",
+            "content": "Als Verteidigungsminister will Boris Pistorius Deutschland kriegstüchtig machen und die Bundeswehr zu einer Top-Truppe formen. Aber was hat der populäre SPD-Politiker bisher tatsächlich erreicht? Wie… [+10611 chars]"
+        },
+        {
+            "source": {
+                "id": "breitbart-news",
+                "name": "Breitbart News"
+            },
+            "author": "Matthew Boyle and Alexander Marlow",
+            "title": "Exclusive: Trump Considers Campaign Stop at Mothballed Virginia Factory to Highlight Biden’s ‘Made in America’ Screwups",
+            "description": "Donald Trump told Breitbart News he is considering taking up an offer to tour a Virginia factory that is not producing anything right now.",
+            "url": "https://www.breitbart.com/politics/2024/03/19/exclusive-trump-considers-campaign-stop-virginia-factory-bidens-made-in-america-screwups/",
+            "urlToImage": "https://media.breitbart.com/media/2024/03/blue-star-factory-virginia-donald-trump-inset-ap-getty-640x335.jpg",
+            "publishedAt": "2024-03-19T01:54:16Z",
+            "content": "PALM BEACH, Florida Former President Donald Trump told Breitbart News exclusively he is considering taking up an offer for a tour from the CEO of a Virginia factory that is not producing anything rig… [+5661 chars]"
+        },
+        {
+            "source": {
+                "id": "the-huffington-post",
+                "name": "The Huffington Post"
+            },
+            "author": "Caroline Bologna",
+            "title": "This Buzzy New Rom-Com Is The Top Movie On Netflix Right Now",
+            "description": "A World War II documentary and a fantasy film are also trending on streaming services like Max, Apple TV+, Hulu and Amazon Prime Video.",
+            "url": "https://www.huffpost.com/entry/irish-wish-popular-netflix-movies_n_65f7c701e4b030e8357a8499",
+            "urlToImage": "https://img.huffingtonpost.com/asset/65f7cc8c2300005200550855.png?ops=1200_630",
+            "publishedAt": "2024-03-18T14:03:29Z",
+            "content": "Irish Wish is the most popular movie on Netflix, according to the platforms public ranking system.\r\nThe new fantasy rom-com premiered on March 15 and marks Lindsay Lohans second film with the streami… [+4375 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news-au",
+                "name": "ABC News (AU)"
+            },
+            "author": "Norman Hermant",
+            "title": "Guenther Steiner speaks on Christian Horner texting scandal and F1's great divide",
+            "description": "Formula 1. It's a sport where no one is short of cash but the gulf between the top and bottom teams has increased as former Haas team principal Guenther Steiner knows all too well.",
+            "url": "https://www.abc.net.au/news/2024-03-18/guenther-steiner-f1-scandal-competitive-divide/103602246",
+            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/72b743f5d92f8fcaa6be1b9051c5f1c3?impolicy=wcms_watermark_news&cropH=2557&cropW=4546&xPos=0&yPos=236&width=862&height=485&imformat=generic",
+            "publishedAt": "2024-03-18T08:46:45Z",
+            "content": "Moving from venue to venue at the Adelaide Motorsport Festival this past weekend was strictly by golf cart for Guenther Steiner.\r\nThat's because if he walked, he would be mobbed by too many fans. Too… [+3986 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news-au",
+                "name": "ABC News (AU)"
+            },
+            "author": "Dannielle Maguire",
+            "title": "British Wildlife Photography Awards winners announced, with image of marine waste taking out top prize",
+            "description": "Ryan Stalker says his photograph of a soccer ball floating in the ocean with a colony of goose barnacles growing off it highlights the problems with marine waste.",
+            "url": "https://www.abc.net.au/news/2024-03-18/british-wildlife-photography-awards-winning-pictures/103599604",
+            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/9b425b7d02cd67ba8b0c0fc23a207f83?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=743&width=862&height=485&imformat=generic",
+            "publishedAt": "2024-03-18T00:49:29Z",
+            "content": "Organisers of the British Wildlife Photography Awards have announced the winners of this year's competition. \r\nCalled Ocean Drifter, an image of a soccer ball floating in the water with dozens of goo… [+2741 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-sports",
+                "name": "Fox Sports"
+            },
+            "author": "John Fanta, Michael Cohen",
+            "title": "College basketball roundtable: Michigan State's tourney streak, top transfers and more",
+            "description": "Is Michigan State's NCAA Tournament streak in jeopardy? Who is the top transfer in the nation? FOX Sports' college basketball experts answer that and more.",
+            "url": "http://www.foxsports.com/stories/college-basketball/college-basketball-roundtable-michigan-states-tourney-streak-top-transfers-and-more",
+            "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2024/02/1408/814/2024-02-29_College-Basketball-Roundtable_16x9.jpg?ve=1&tl=1",
+            "publishedAt": "2024-02-29T20:59:30Z",
+            "content": "It's almost time, ladies and gentlemen!\r\nThat long-awaited, fun-filled day when you wait to hear your team's name called before breaking out a pen and paper to fill out your NCAA Tournament bracket i… [+17577 chars]"
+        },
+        {
+            "source": {
+                "id": "talksport",
+                "name": "TalkSport"
+            },
+            "author": "Jackson Cole",
+            "title": "Arsenal fans despair over David Raya mistakes against Luton – and talkSPORT hosts clash over Aaron R...",
+            "description": "David Raya endured the second half from hell as his TWO errors saw Arsenal go from 2-1 up to 3-2 down at Luton. Fortunately for him, Kai Havertz’s equaliser and Declan Rice’s stoppage-t…",
+            "url": "https://talksport.com/football/1667076/arsenal-fans-david-raya-mistakes-luton-premier-league/",
+            "urlToImage": "https://talksport.com/wp-content/uploads/sites/5/2023/12/LB-comp-TALKSPORT-RAYA-copy.jpg?strip=all&quality=100&w=1500&h=1000&crop=1",
+            "publishedAt": "2023-12-06T08:16:00Z",
+            "content": "David Raya endured the second half from hell as his TWO errors saw Arsenal go from 2-1 up to 3-2 down at Luton.\r\nFortunately for him, Kai Havertz's equaliser and Declan Rice's stoppage-time header ga… [+4109 chars]"
+        },
+        {
+            "source": {
+                "id": "talksport",
+                "name": "TalkSport"
+            },
+            "author": "Phil Spencer",
+            "title": "Limbs in Arsenal camp as Declan Rice stoppage-time winner gives them win in seven-goal thriller...",
+            "description": "Arsenal’s camp could barely hide their delight after securing a dramatic late victory over Luton Town. The Gunners played out a seven-goal thriller as Declan Rice’s header in the sevent…",
+            "url": "https://talksport.com/football/1667129/arsenal-celebrations-declan-rice-luton-mikel-arteta/",
+            "urlToImage": "https://talksport.com/wp-content/uploads/sites/5/2023/12/declan-rice-arsenal-throws-match-864336364.jpg?strip=all&quality=100&w=1920&h=1080&crop=1",
+            "publishedAt": "2023-12-05T22:42:30Z",
+            "content": "Arsenal's camp could barely hide their delight after securing a dramatic late victory over Luton Town.\r\nThe Gunners played out a seven-goal thriller as Declan Rice's header in the seventh minute of s… [+1890 chars]"
+        },
+        {
+            "source": {
+                "id": "nhl-news",
+                "name": "NHL News"
+            },
+            "author": "Dan Rosen",
+            "title": "Heiskanen hopes scoring, defense for Stars will lead to Norris Trophy",
+            "description": "Miro Heiskanen is considered one of the top defensemen in the NHL, but he wants to be the best, and doing that means winning the Norris Trophy.",
+            "url": "https://www.nhl.com/news/miro-heiskanen-hopes-scoring-defense-for-dallas-will-lead-to-norris-trophy/c-345688372",
+            "urlToImage": "https://cms.nhl.bamgrid.com/images/photos/345688578/1024x576/cut.jpg",
+            "publishedAt": "2023-09-03T04:00:00Z",
+            "content": "STOCKHOLM --Miro Heiskanen is considered one of the top defensemen in the NHL, but he wants to be the best, and doing that means winning the Norris Trophy.\"That's one thing I really want to win,\" the… [+3678 chars]"
+        },
+        {
+            "source": {
+                "id": "axios",
+                "name": "Axios"
+            },
+            "author": "Tim Baysinger",
+            "title": "Hollywood shuts down as actors join writers on strike",
+            "description": "A work stoppage by thousands of on-screen performers is expected to bring the industry to a halt.",
+            "url": "https://www.axios.com/2023/07/13/sag-aftra-wga-strike-hollywood",
+            "urlToImage": "https://images.axios.com/BsO_He3gjjKmpAfFwgqtLL3nOm8=/0x0:4000x2250/1366x768/2023/06/30/1688149702453.jpg",
+            "publishedAt": "2023-07-13T17:42:29Z",
+            "content": "SAG-AFTRA, the union that represents Hollywood actors, will strike for the first time since 1980 after failing to reach a new labor deal with the major studios.\r\nWhy it matters: The actors' strike, w… [+4148 chars]"
         }
     ]
 }
