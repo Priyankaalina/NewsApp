@@ -18,43 +18,64 @@ static propTypes   = {
     pageSize: PropTypes.number,
     category: PropTypes.string
 }
+capitalizeFirstLetter= (string) => {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
 
-constructor() {
-  super();
+constructor(props) {
+  super(props);
   this.state ={
     articles: [],
     loading: false,
     page: 1,
 
   }
+  document.title = `${this.capitalizeFirstLetter(this.props.category)} - NewsMonkey`;
   
 
 }
-async componentDidMount(){
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=51c1551edc784bc6942e7465dffb3f5e&page=${this.state.page}&pageSize=${this.props.pageSize}`;
-    this.setState({loading: true})
-    let data = await fetch(url);
-    let parseData = await data.json();
-    console.log(parseData);
-    this.setState({
-        articles: parseData.articles,
-        totalResults: parseData.totalResults,
-        loading: false
-    })
 
-
-}
-handlePreviousClick = async() =>{
-    this.setState({page: this.state.page - 1});
+updatePage = async() =>{
     let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=51c1551edc784bc6942e7465dffb3f5e&page=${this.state.page - 1}&pageSize=${this.props.pageSize}`;
     this.setState({loading: true})
     let data = await fetch(url);
     let parseData = await data.json();
     this.setState({
         articles: parseData.articles,
-        page: this.state.page - 1,
+        totalResults: parseData.totalResults,
         loading: false
     })
+
+}
+async componentDidMount(){
+    // let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=51c1551edc784bc6942e7465dffb3f5e&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    // this.setState({loading: true})
+    // let data = await fetch(url);
+    // let parseData = await data.json();
+    // console.log(parseData);
+    // this.setState({
+    //     articles: parseData.articles,
+    //     totalResults: parseData.totalResults,
+    //     loading: false
+    // })
+   
+    this.updatePage();
+
+
+}
+handlePreviousClick = async() =>{
+    
+    // let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=51c1551edc784bc6942e7465dffb3f5e&page=${this.state.page - 1}&pageSize=${this.props.pageSize}`;
+    // this.setState({loading: true})
+    // let data = await fetch(url);
+    // let parseData = await data.json();
+    // this.setState({
+    //     articles: parseData.articles,
+    //     page: this.state.page - 1,
+    //     loading: false
+    // })
+    this.setState({page: this.state.page - 1});
+    this.updatePage();
 
 
 }
@@ -62,15 +83,21 @@ handlePreviousClick = async() =>{
 handleNextClick = async() =>{
 
     if(!(this.state.page + 1 > Math.ceil(this.state.totalResults/this.props.pageSize))){
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=51c1551edc784bc6942e7465dffb3f5e&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
-        this.setState({loading: true});
-        let data = await fetch(url);
-        let parseData = await data.json();
-        this.setState({
-            articles: parseData.articles,
-            page: this.state.page + 1,
-            loading: false
-        })
+        
+        // let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=51c1551edc784bc6942e7465dffb3f5e&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
+        // this.setState({loading: true});
+        // let data = await fetch(url);
+        // let parseData = await data.json();
+        // this.setState({
+        //     articles: parseData.articles,
+        //     page: this.state.page + 1,
+        //     loading: false
+        // })
+
+        this.setState({page: this.state.page + 1});
+        this.updatePage();
+
+
     }   
     
 }
@@ -81,7 +108,7 @@ render() {
     // Render your component using the article object
      return (
       <div className="container my-3">
-        <h1 className="text-center">NewsMonkey - Top Headlines</h1>
+        <h1 className="text-center">NewsMonkey - Top {this.capitalizeFirstLetter(this.props.category)} Headlines</h1>
         {this.state.loading && <Spinner/>}
      
         <div className="row">
@@ -94,6 +121,7 @@ render() {
                 newsUrl ={element.url}
                 author = {element.author}
                 date = {element.publishedAt}
+                source={element.source.name}
               />
             </div>
           ))}

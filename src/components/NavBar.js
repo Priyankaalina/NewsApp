@@ -13,7 +13,7 @@ export class NavBar extends Component {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li className="nav-item"><Link className="nav-link active" to="/general">Home</Link></li>
+                    
                     <li className="nav-item"><Link className="nav-link" to="/business">business</Link></li>
                     <li className="nav-item"><Link className="nav-link" to="/entertainment">entertainment</Link></li>
                     <li className="nav-item"><Link className="nav-link" to="/general">general</Link></li>
